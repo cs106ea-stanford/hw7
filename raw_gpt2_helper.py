@@ -93,19 +93,19 @@ def display_generate_text():
         text_output
     ]))
 
-    # Inject CSS to style the output text
-    display(HTML("""
-    <style>
-        .custom-font pre {
-            font-family: Arial, sans-serif !important;
-            font-size: 14px !important;
-            white-space: pre-wrap !important;
-            overflow-wrap: break-word !important;
-            word-break: keep-all !important; /* Ensures words don't split in the middle */
-            max-width: 100% !important;
-            padding: 10px;
-            border: 1px solid #ddd;
-            background-color: #f9f9f9;
-        }
-    </style>
-    """))
+    # # Inject CSS to style the output text
+    # display(HTML("""
+    # <style>
+    #     .custom-font pre {
+    #         font-family: Arial, sans-serif !important;
+    #         font-size: 14px !important;
+    #         white-space: pre-wrap !important;
+    #         overflow-wrap: break-word !important;
+    #         word-break: keep-all !important; /* Ensures words don't split in the middle */
+    #         max-width: 100% !important;
+    #         padding: 10px;
+    #         border: 1px solid #ddd;
+    #         background-color: #f9f9f9;
+    #     }
+    # </style>
+    # """))
